@@ -1,5 +1,5 @@
 # Portfolio-ISEN
-Portfolio avec présentation et futurs potentiels projets
+Présentation de mon parcours et mes projets
 
 ## À propos de moi
 
@@ -17,16 +17,16 @@ J’ai travaillé sur plusieurs projets personnels, notamment le développement 
 
 Je travaille avec :
 
-Python
+Windows: Système d'exploitation
 
-HTML / CSS
+Python: langage utilisé pour l'automatisation, le web et les données (back-end)
 
-Haxe
+HTML / CSS: langage qui structure le contenu des pages web (front-end)
 
-Windows
+Haxe: langage qui permet de créer des applications pour plusieurs plateformes à partir d'un seul code
 
 Parmi ces outils, Haxe est celui que je maîtrise le mieux, car je l’utilise régulièrement dans mes projets.
 
 ## Projet marquant
 
-Le projet dont je suis le plus fier est un jeu que j’ai entièrement programmé. En cours de route, certains membres de l’équipe ont quitté le projet, ce qui m’a obligé à reprendre une plus grosse part du travail. Cette situation m’a appris à m’adapter, à être plus autonome et à aller au bout d’un projet malgré les difficultés.
+Le projet dont je suis le plus fier est un jeu que j’ai développé. En cours de route, plusieurs membres de l’équipe ont quitté le projet, ce qui m’a obligé à reprendre une grande partie du travail seul. C’est à ce moment-là que j’ai vraiment dû apprendre en profondeur le fonctionnement du langage, tout en respectant une deadline assez courte. J’ai mis en place les backgrounds, animé des spritesheets et corrigé la plupart des bugs. Cette expérience m’a appris à m’adapter rapidement, à monter en compétence sous pression et à aller au bout d’un projet.
