@@ -477,32 +477,24 @@ footer::before {
     transform: translateY(0);
 }
 
-/* ============================================
-   MEDIA QUERIES - OPTIMISED & SIMPLIFIED
-   ============================================ */
-
-/* Extra Large Desktop (1400px+) */
 @media (min-width: 1400px) {
     main {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-/* Desktop (1024px - 1399px) */
 @media (max-width: 1399px) and (min-width: 1024px) {
     main {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-/* Tablet & larger (768px - 1023px) */
 @media (max-width: 1023px) and (min-width: 768px) {
     main {
         grid-template-columns: 1fr;
     }
 }
 
-/* Small devices (max-width: 767px) - Mobile & small tablets */
 @media (max-width: 767px) {
     main {
         grid-template-columns: 1fr;
@@ -515,7 +507,6 @@ footer::before {
     }
 }
 
-/* Extra small mobile (max-width: 479px) */
 @media (max-width: 479px) {
     header::before,
     header::after {
@@ -531,7 +522,6 @@ footer::before {
     }
 }
 
-/* Landscape mode optimization */
 @media (max-height: 600px) and (orientation: landscape) {
     header {
         padding: clamp(20px, 5vw, 40px) clamp(15px, 4vw, 40px);
