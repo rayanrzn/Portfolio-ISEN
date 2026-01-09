@@ -35,14 +35,14 @@ body::before {
     content: '';
     position: fixed;
     inset: 0;
-    background: 
+    background:
         radial-gradient(circle at 20% 50%, rgba(139, 92, 246, 0.08) 0%, transparent 50%),
         radial-gradient(circle at 80% 80%, rgba(99, 102, 241, 0.08) 0%, transparent 50%);
     pointer-events: none;
     z-index: 1;
 }
 
-body > * {
+body>* {
     position: relative;
     z-index: 2;
 }
@@ -266,7 +266,7 @@ p {
     font-weight: 600;
     font-size: clamp(0.75rem, 1.8vw, 0.95rem);
     cursor: pointer;
-    transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    transition: all 0.3s ease;
     white-space: nowrap;
 }
 
@@ -390,7 +390,7 @@ footer {
     color: var(--text-primary);
     font-family: inherit;
     font-size: clamp(0.85rem, 1.8vw, 0.95rem);
-    transition: background 0.3s ease, border-color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .contact-form input::placeholder,
@@ -419,7 +419,7 @@ footer {
     font-weight: 600;
     font-size: clamp(0.85rem, 1.8vw, 0.95rem);
     cursor: pointer;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: all 0.3s ease;
     margin-top: clamp(5px, 1vw, 10px);
 }
 
@@ -430,6 +430,34 @@ footer {
 
 .submit-btn:active {
     transform: translateY(0);
+}
+
+.submit-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.form-message {
+    padding: clamp(10px, 2vw, 15px) clamp(15px, 3vw, 20px);
+    border-radius: 8px;
+    font-size: clamp(0.85rem, 1.8vw, 0.95rem);
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: clamp(10px, 2vw, 15px);
+    transition: opacity 0.3s ease;
+}
+
+.form-message-success {
+    background: rgba(34, 197, 94, 0.15);
+    border: 1.5px solid rgba(34, 197, 94, 0.5);
+    color: #86efac;
+}
+
+.form-message-error {
+    background: rgba(239, 68, 68, 0.15);
+    border: 1.5px solid rgba(239, 68, 68, 0.5);
+    color: #fca5a5;
 }
 
 @media (min-width: 1024px) {
@@ -451,6 +479,7 @@ footer {
 }
 
 @media (max-width: 479px) {
+
     header::before,
     header::after {
         display: none;
